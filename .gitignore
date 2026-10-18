@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# macOS and editors
+.DS_Store
+._*
+.vscode/
+.idea/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Codex logs and local databases
+.codex/
+sessions/
+archived_sessions/
+*.jsonl
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.db
+*.log
+
+# Generated exports
+/exports/
+/stats*.json
